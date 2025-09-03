@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Para ti, Mi bb Tiquita 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="overlay">
+    <!-- Login bonito -->
+    <div class="content-section login-card" id="loginSection">
+      <h1 class="login-title">Feliz Cumple Mes, Mi bb Tiquita 💖</h1>
+      <p class="login-subtitle">En algo que sí soy bueno, mi amor ✨</p>
+      <form id="loginForm" class="login-form">
+        <input type="text" id="username" placeholder="Tu usuario" required />
+        <input type="password" id="password" placeholder="Tu contraseña" required />
+        <button type="submit">Ingresa y descubre</button>
+      </form>
+      <p id="error-message" class="error-message"></p>
+    </div>
+
+    <!-- Contenido principal oculto hasta el login -->
+    <div id="mainContent" class="hidden">
+      <!-- Barra de navegación superior -->
+      <header class="navbar">
+        <h2>🌸 Nuestra Historia 🌸</h2>
+        <button id="logoutBtn">Cerrar sesión</button>
+      </header>
+
+      <!-- Título y subtítulo -->
+      <h1 class="main-title">Feliz Cumple mes Amor de mi vida</h1>
+      <p class="subtitle">Hoy cumplimos 7 meses mi reina. Espero que te guste.</p>
+
+      <!-- Menú de imágenes -->
+      <nav class="image-menu" id="imageMenu">
+        <ul>
+          <li data-section="section1"><img src="imagen1.jpg" alt="Canción 1" /></li>
+          <li data-section="section2"><img src="imagen2.jpg" alt="Historia de nuestro amor" /></li>
+          <li data-section="section3"><img src="imagen3.jpg" alt="Primera salida al cine" /></li>
+          <li data-section="section4"><img src="imagen4.jpg" alt="Galería de salidas" /></li>
+          <li data-section="section5"><img src="imagen5.jpg" alt="¿Por qué me enamoré de ti?" /></li>
+          <li data-section="section6"><img src="imagen6.jpg" alt="¿Esta historia continuará?" /></li>
+        </ul>
+      </nav>
+
+      <!-- SECCIONES -->
+      <div class="content-section hidden" id="section1">
+        <h2>¿Recuerdas esta canción?</h2>
+        <h3>🎵Fue la primera Cancion de Vicente Fernandez que te dedique</h3>
+        <audio controls>
+          <source src="music1.mp3" type="audio/mpeg" />
+          Tu navegador no soporta audio HTML5.
+        </audio>
+        <div class="lyrics">
+          Aquí tienes las llaves de mi alma<br />
+          Puedes entrar a la hora que tú quieras<br />
+          Para que veas si hay alguien en el mundo<br />
+          Que pueda darte lo que yo quisiera<br /><br />
+
+          Ya he tratado de sacarte de mi vida<br />
+          Yo no puedo quererte limpiamente<br />
+          Pero qué quieres que haga vida mía<br />
+          Si el corazón no ve tan solo siente<br /><br />
+
+          Tu boca, tus ojos y tu pelo<br />
+          Los llevo en mi mente noche y día<br />
+          No me pidas que deje de quererte<br />
+          Después que te entregué la vida mía<br /><br />
+
+          Ya he tratado de sacarte de mi vida<br />
+          Yo no puedo quererte limpiamente<br />
+          Pero qué quieres que haga vida mía<br />
+          Si el corazón no ve tan solo siente<br /><br />
+
+          Tu boca, tus ojos y tu pelo<br />
+          Los llevo en mi mente noche y día<br />
+          No me pidas que deje de quererte<br />
+          Después que te entregué la vida mía
+        </div>
+      </div>
+
+      <div class="content-section hidden" id="section2">
+        <h2>La historia de nuestro amor</h2>
+        <p>Mi Reina, como olvidar la primera vez que te vi, pues fue un estado de Ariel. eras una chica tan pero tan linda, Decidi pedirle su numero, y miranos ahora, juntos y siendo felices, pero quien pensaria que asi seria, a cada momento analizo y no puedo creer la forma en la que llegamos a estar asi de juntos, enamorados, despues de tanto que nos ha sucedido, en esta parte de esta pagina web la dedico a nuestra historia de amor, desde el momento en que comenzamos con la primera palabra amor en nuestro chat, hasta el momento en el que lo dijimos en persona, cada cosa nueva que hemos hecho, como salir, caminar, cada beso y cada abrazo guardado en nuestra memoria, mi reina, el 5 de mayo el primer dia en que recibi un beso de tus labios y una tierna mirada fue para mi el dia mas especial de mi vida pues dejaba atras la idea de pensar si quiera en otra persona, pues desde que te conoci, sabia que serias para mi, recuerdas que te asegure que serias mi esposa?, pues asi lo sera mi amor, Sabes, desde el momento en que decidi enviar ese mensaje el 31 de Enero del 2025 supe que mi vida cambiaria, pero no me imagine que fuera para bien, pues desde ese dia he sido el hombre mas feliz del mundo, porque recibi su respuesta y gracias a eso empezamos nuestra historia de amor, y miranos ahora ya son 7 meses que tenemos juntos, 7 meses tan llenos de amor y de sueños que planeamos cumplirlos, si algun vez dudas de mi amor, solo dimelo que yo demostrare por que en realidad te amo, mi reina eres mi cielo, cada recuerdo, cada cosa por la que hemos pasado, me hace estar muy pero muy seguro de que esta historia va para largo, tenerte entre mis brazos, es el momento mas feliz de mis dias, los peores son cuando me despido de ti, y dejo de verte y volvemos a escribirnos por chat, se que no podre terminar esto porque...... Esta Historia Continuara......... Te AMO TANTO </p>
+      </div>
+
+      <!-- Primera salida al cine -->
+      <div class="content-section hidden" id="section3">
+        <h2>Nuestra primera salida al cine</h2>
+        <p>Recuerdo ese día tan especial, nuestras risas y miradas cómplices...</p>
+
+        <!-- 4 videos -->
+        <div class="cine-videos">
+          <video controls src="cine1.mp4"></video>
+          <video controls src="cine2.mp4"></video>
+          <video controls src="cine3.mp4"></video>
+          <video controls src="cine4.mp4"></video>
+        </div>
+
+        <!-- Imagen con mensaje oculto -->
+        <div class="cine-imagen">
+          <img src="cine5.jpg" alt="Nuestra primera peli" id="cineImage"/>
+          <p class="cine-mensaje">Nuestra primera Peli Juntos</p>
+        </div>
+      </div>
+
+      <!-- Galería con corazón -->
+      <div class="content-section hidden" id="section4">
+        <h2>Galería de nuestras salidas e historias</h2>
+        <p>Lo mejor de Vivir momentos hermosos a tu lado.</p>
+        <div class="collage-corazon">
+          <div class="corazon">
+            <div class="flip-card" title="Tu sonrisa me enamora">
+              <div class="flip-card-inner">
+                <img src="h1.jpg" alt="h1" />
+                <div class="flip-card-back">Tu sonrisa me enamora</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Eres mi razón de ser">
+              <div class="flip-card-inner">
+                <img src="h2.jpg" alt="h2" />
+                <div class="flip-card-back">Eres mi razón de ser</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Siempre en mi corazón">
+              <div class="flip-card-inner">
+                <img src="h3.jpg" alt="h3" />
+                <div class="flip-card-back">Siempre en mi corazón</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Eres mi cielo">
+              <div class="flip-card-inner">
+                <img src="h4.jpg" alt="h4" />
+                <div class="flip-card-back">Eres mi cielo</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Nuestro amor es eterno">
+              <div class="flip-card-inner">
+                <img src="h5.jpg" alt="h5" />
+                <div class="flip-card-back">Nuestro amor es eterno</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Mi mejor aventura eres tú">
+              <div class="flip-card-inner">
+                <img src="h6.jpg" alt="h6" />
+                <div class="flip-card-back">Mi mejor aventura eres tú</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Tus abrazos son mi paz">
+              <div class="flip-card-inner">
+                <img src="h7.jpg" alt="h7" />
+                <div class="flip-card-back">Tus abrazos son mi paz</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Cada beso es un regalo">
+              <div class="flip-card-inner">
+                <img src="h8.jpg" alt="h8" />
+                <div class="flip-card-back">Cada beso es un regalo</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Mi reina hermosa">
+              <div class="flip-card-inner">
+                <img src="h9.jpg" alt="h9" />
+                <div class="flip-card-back">Mi reina hermosa</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Mi cielo infinito">
+              <div class="flip-card-inner">
+                <img src="h10.jpg" alt="h10" />
+                <div class="flip-card-back">Mi cielo infinito</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Para siempre tú y yo">
+              <div class="flip-card-inner">
+                <img src="h11.jpg" alt="h11" />
+                <div class="flip-card-back">Para siempre tú y yo</div>
+              </div>
+            </div>
+            <div class="flip-card" title="Eres mi todo">
+              <div class="flip-card-inner">
+                <img src="h12.jpg" alt="h12" />
+                <div class="flip-card-back">Eres mi todo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ¿Por qué me enamoré de ti? -->
+      <div class="content-section hidden" id="section5">
+        <h2>¿Por qué me enamoré de ti?</h2>
+        <ul>
+          <li>Tus bellos ojitos que tanto amo.</li>
+          <li>Tu carisma que ilumina cualquier lugar.</li>
+          <li>Tu sonrisa que me enamora cada día.</li>
+          <li>Tu locura adorable que me hace reír sin parar.</li>
+          <li>La paciencia infinita que tienes conmigo.</li>
+          <li>La complicidad y conexión que compartimos.</li>
+          <li>Tu risa contagiosa y genuina que alegra mi alma.</li>
+          <li>La forma en que me entiendes sin palabras.</li>
+          <li>Tu ternura que me abraza desde lejos.</li>
+          <li>La fuerza y valentía que admiro en ti.</li>
+          <li>Y muchísimas cosas más que hacen que te ame cada día más.</li>
+        </ul>
+      </div>
+
+      <!-- ¿Esta historia continuará? -->
+      <div class="content-section hidden" id="section6">
+        <h2>¿Esta historia continuará?</h2>
+        <p>Claro que sí, mi amor. Este es solo el comienzo de nuestra aventura juntos.</p>
+
+        <!-- Nueva canción -->
+        <audio controls>
+          <source src="cancion2.mp3" type="audio/mpeg" />
+          Tu navegador no soporta audio HTML5.
+        </audio>
+
+        <!-- Links románticos con botones -->
+        <h3>Páginas dedicadas al amor de mi vida 💖</h3>
+        <div class="love-buttons">
+          <a href="https://bryanc17a.github.io/ParamiNovia/" target="_blank" class="love-btn">
+            ParamiNovia<br /><small>Ingresa aquí</small>
+          </a>
+          <a href="https://bryanc17a.github.io/FloresAmarillas/" target="_blank" class="love-btn">
+            Flores Amarillas<br /><small>Ingresa aquí</small>
+          </a>
+          <a href="https://bryanc17a.github.io/Amor/" target="_blank" class="love-btn">
+            Amor<br /><small>Ingresa aquí</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
